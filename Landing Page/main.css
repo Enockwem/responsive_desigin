@@ -1,0 +1,21 @@
+@media screen and (width: 300px){
+   body{
+     background-color: grey;
+   }
+ }
+ header{
+   position:fixed;
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ img{
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+ }
+ 
+ #nav-bar{
+   padding: 20px;
+   justify-content: left;
+ }
