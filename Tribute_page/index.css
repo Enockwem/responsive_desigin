@@ -1,0 +1,46 @@
+.container {
+   font-family: system-ui;
+   background: #D3D3D3;
+   color: black;
+   text-align: center;
+ }
+ header{
+   padding-top: 50px;
+ }
+ 
+ h1{
+   padding-bottom: 20px;
+ }
+ .image-description{
+   width: 98.5%;
+   display: block;
+   border: 1px solid #ccc;
+   border-radius:0px;
+   margin: 10px 10px 10px 10px;
+   background: white;
+   align-items: center;
+ }
+ 
+ img{
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .about-container{
+   width: 45%;
+   justify-content: center;
+   margin-left: 25%;
+   margin-right:25%;
+   text-align:start;
+   padding: 20px;
+ }
+ 
+ li{
+   margin: 0px;
+   padding: 10px;
+   text-align: start;
+ }
+ 
+ #tribute-link{
+   text-align: start;
+ }
