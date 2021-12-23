@@ -1,0 +1,40 @@
+body{
+   background-color: grey;
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+ }
+ 
+ .container{
+   padding: 20px;
+   display: block;
+   background-color: white;
+   text-align: center;
+ }
+ 
+ .container form{
+   padding: 20px;
+   text-align: start;
+ }
+ 
+ #submit{
+   font-size: 20px;
+   border-radius: 10px;
+   
+ }
+ button:hover{
+   background-color: grey;
+   color: white;
+ }
+ #name, #email{
+   width: 300px;
+   height: 30px;
+ }
+ #name, #email, #number, #dropdown{
+   border-radius: 5px;
+ /*   border: none; */
+ }
+ 
+ textarea{
+   width: 300px;
+ }

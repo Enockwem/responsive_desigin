@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+       <h1 id="title">Survey Form</h1>
+    <p id="description">Please help us fill this form as it is part of freecodecamp project work</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Enter name</label><br>
+      <input id="name" type="text" name="name" placeholder="Enter name" required><br><br>
+      <label for="email" id="email-label">Enter email</label><br>
+      <input id="email" type="email" name="email" placeholder="Enter email" required><br><br>
+      <label for="number" id="number-label">Enter a number btn 1 and 9</label>
+      <input id="number" type="number" name="number" placeholder="Number"  min="1" max="9"required><br><br>
+      <label>Level of education
+      <select name="dropdown" id="dropdown">
+        <option value="primary">Primary</option>
+        <option value="secondary">Secondary</option>
+        <option value="university">University</option>
+        </select></label><br><br>
+<!--       section for radio button each having a name attribute -->
+      
+      <label><input type="radio" name="international" value="English">English</label>
+      <label><input type="radio" name="international" value="Spanish">Spanish</label>
+      <label><input type="radio" name="local" value="Luganda">Luganda</label>
+       <label><input type="radio" name="local" value="Luo">Luo</label>
+      <label><input type="radio" name="local" value="Lunyankole">Lunyankole</label>
+      <label><input type="radio" name="local" value="Lusoga">Lusoga</label><br><br>
+<!--       writing check boxes -->
+        <label><input type="checkbox" name="male-checkbox" value="male">Male</label>
+        <label><input type="checkbox" name="female-checkbox" value="female">Female</label>
+        <label><input type="checkbox" value="hermufrodite" name="both">Hermufrodite</label><br><br>
+        <label>Enter comment below:</label><br>
+        <textarea id="" rows="4" columns="50"></textarea><br>
+        <button id="submit">submit</button>
+    </form>
+    </div>
+  </body>
+</html>
